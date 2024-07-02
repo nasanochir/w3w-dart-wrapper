@@ -8,27 +8,27 @@ class IndexPage extends StatelessWidget {
     return Scaffold(
         body: Container(
             padding: const EdgeInsets.all(20.0),
-            child: Column(
+            child: const Column(
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               // ignore: prefer_const_literals_to_create_immutables
               children: <Widget>[
-                const MainButton(
+                MainButton(
                   icon: Icons.location_searching,
                   text: "Convert To Coordinates",
                   link: "/convert_to_coordinates",
                 ),
-                const MainButton(
+                MainButton(
                   icon: Icons.pin_drop,
                   text: "Convert To 3WA",
                   link: "/convert_to_3wa",
                 ),
-                const MainButton(
+                MainButton(
                   icon: Icons.grid_3x3,
                   text: "3WA Grid",
                   link: "/grid_section_test",
                 ),
-                const MainButton(
+                MainButton(
                   icon: Icons.comment_outlined,
                   text: "AutoSuggestion",
                   link: "/autosuggestion",

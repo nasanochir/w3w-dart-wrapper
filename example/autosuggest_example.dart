@@ -1,4 +1,3 @@
-import 'package:what3words/src/request/autosuggest_options.dart';
 import 'package:what3words/what3words.dart';
 
 void main() async {
